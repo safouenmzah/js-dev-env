@@ -1,11 +1,11 @@
 //this file will configure a web server that will server requests on our web server
+//using es6
+import express from 'express';
+import path from 'path';
+import open from 'open';
 
-var express = require('express');
-var path = require('path');
-var open = require('open');
-
-var port = 3000;
-var app = express();
+const port = 3000;
+const app = express();
 
 
 //routing
